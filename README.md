@@ -1,6 +1,6 @@
 # poker_sanic
 
-  该项目主要是爬取https://zh.pokerstrategy.com/glossary该网站的数据保存到数据库中，并且使用sainc框架来展示数据库中的数据。项目主要分为两个模块一个是爬虫模块，一个是web模块
+  该项目主要是爬取(https://zh.pokerstrategy.com/glossary,"德州扑克") 该网站的数据保存到数据库中，并且使用sainc框架来展示数据库中的数据。项目主要分为两个模块一个是爬虫模块，一个是web模块
 
 ---
 
