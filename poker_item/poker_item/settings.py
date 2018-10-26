@@ -53,10 +53,10 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
+DOWNLOADER_MIDDLEWARES = {
 #    'poker_item.middlewares.PokerItemDownloaderMiddleware': 543,
-#    'poker_item.middlewares.UserAgentMiddleware': 300,
-#}
+    'poker_item.middlewares.UserAgentMiddleware': 300,
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html

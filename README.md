@@ -1,19 +1,3 @@
-# poker_sanic
+# poker_spider
 
-  该项目主要是爬取(https://zh.pokerstrategy.com/glossary,"德州扑克") 该网站的数据保存到数据库中，并且使用sainc框架来展示数据库中的数据。项目主要分为两个模块一个是爬虫模块，一个是web模块
-
----
-
-## 爬虫
-
-  主要是使用request爬取网页，使用bs4来分析网页提取数据。
-
----
-
-## web
-
-  使用sainc框架来搭建web网站
-
----
-
-  
+  该爬虫项目主要是抓取德州扑克的专业术语的信息，使用了scrapy爬虫框架。并且使用了CrawlSpider，选用fake_useragent 来应对反爬机制。
