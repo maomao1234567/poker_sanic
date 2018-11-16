@@ -10,6 +10,7 @@ import scrapy
 
 class PokerItemItem(scrapy.Item):
     # 定义item的字段
+    name = scrapy.Field()
     head = scrapy.Field()
     body = scrapy.Field()
-    name = scrapy.Field()
+
