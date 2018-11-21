@@ -28,7 +28,7 @@ class PokeritemSpider(Spider):
             h += 1
         #通过遍历爬取每一个链接
         for li in list_url:
-            yield scrapy.Request('https://zh.pokerstrategy.com'+li,callback=self.parse_item,dont_filter=True)
+            yield scrapy.Request('https://zh.pokerstrategy.com'+li,callback=self.parse_item)
 
     def parse_item(self, response):
         print(response)
